@@ -24,7 +24,7 @@ namespace GetFoodNYC
         {
             if (value == null) return null;
 
-            int maxLength = 200;
+            int maxLength = 400;
             int strLength = 0;
             string fixedString = "";
 
@@ -58,7 +58,8 @@ namespace GetFoodNYC
 
                 // Unless we take the next step, the string truncation could occur in the middle of a word.
                 // Using LastIndexOf we can find the last space character in the string and truncate there. 
-                fixedString = fixedString.Substring(0, fixedString.LastIndexOf(" "));
+                //fixedString = fixedString.Substring(0, fixedString.LastIndexOf(" "));
+                fixedString += "...";
             }
 
             return fixedString;

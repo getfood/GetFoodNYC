@@ -20,7 +20,7 @@ using System.Resources;
 [assembly: AssemblyTitle("GetFoodNYC")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft IT")]
+[assembly: AssemblyCompany("GetFood")]
 [assembly: AssemblyProduct("GetFoodNYC")]
 [assembly: AssemblyCopyright("Copyright © GetFoodNYC 2014")]
 [assembly: AssemblyTrademark("")]
@@ -43,6 +43,6 @@ using System.Resources;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
