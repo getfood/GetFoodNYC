@@ -1,0 +1,17 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="GetFoodNYC" EntryPointType="GetFoodNYC.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="GetFoodNYC" Source="GetFoodNYC.dll" />
+    <AssemblyPart x:Name="Microsoft.Advertising.Mobile" Source="Microsoft.Advertising.Mobile.dll" />
+    <AssemblyPart x:Name="microsoft.advertising.mobile.ui" Source="microsoft.advertising.mobile.ui.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Maps" Source="Microsoft.Phone.Controls.Maps.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.Syndication" Source="System.ServiceModel.Syndication.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+    <AssemblyPart Source="zh-CN/Microsoft.Advertising.Mobile.resources.dll" />
+    <AssemblyPart Source="zh-TW/Microsoft.Advertising.Mobile.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.ServiceModel.Syndication.resources.dll" />
+    <AssemblyPart Source="zh-Hant/System.ServiceModel.Syndication.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Xml.Serialization.resources.dll" />
+    <AssemblyPart Source="zh-Hant/System.Xml.Serialization.resources.dll" />
+  </Deployment.Parts>
+</Deployment>
