@@ -46,14 +46,15 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" Text="NYC Restaurant Guide in Chinese" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="纽约餐馆指南" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="60"/>
+            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="53.333">
+            	<Run Text="纽约餐馆漫游指南"/>
+            </TextBlock>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="5,122,7,0" Grid.RowSpan="2">
-            <Button Content="Load Feed" Height="77" HorizontalAlignment="Left" Margin="9,6,0,0" x:Name="loadFeedButton" VerticalAlignment="Top" Width="273" Click="loadFeedButton_Click" />
 
-            <ListBox x:Name="feedListBox" Height="426" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top" Width="444" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="feedListBox_SelectionChanged">
+            <ListBox x:Name="feedListBox" Height="516" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" Width="444" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="feedListBox_SelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel VerticalAlignment="Top">
@@ -64,9 +65,9 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <Border BorderBrush="{StaticResource PhoneSubtleBrush}" BorderThickness="1" Height="2" HorizontalAlignment="Left" Margin="20,80,0,0" x:Name="border1" VerticalAlignment="Top" Width="438" />
+            <Border BorderBrush="{StaticResource PhoneSubtleBrush}" BorderThickness="1" Height="2" HorizontalAlignment="Left" Margin="20,1,0,0" x:Name="border1" VerticalAlignment="Top" Width="438" />
         </Grid>
-        <UI:AdControl Name="AdUnit" ApplicationId="b7bab291-1039-4c59-8690-485f7b687f7c" AdUnitId="163049" HorizontalAlignment="Left" Height="100" Margin="0,507,0,0" Grid.Row="1" VerticalAlignment="Top" Width="480"/>
+        <UI:AdControl Name="AdUnit" ApplicationId="b7bab291-1039-4c59-8690-485f7b687f7c" AdUnitId="163049" HorizontalAlignment="Left" Height="80" Margin="0,541,0,0" Grid.Row="1" VerticalAlignment="Top" Width="480"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

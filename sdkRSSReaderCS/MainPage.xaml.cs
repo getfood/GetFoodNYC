@@ -107,7 +107,7 @@ namespace GetFoodNYC
                 // Bind the list of SyndicationItems to our ListBox
                 feedListBox.ItemsSource = feed.Items;
 
-                loadFeedButton.Content = "Refresh Feed";
+                //loadFeedButton.Content = "Refresh Feed";
             });
 
         }
