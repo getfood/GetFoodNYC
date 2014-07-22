@@ -1,7 +1,7 @@
 #################
 ## Eclipse
 #################
-
+*.csproj
 *.pydevproject
 .project
 .metadata
